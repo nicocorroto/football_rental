@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import './Header.css'
+
 const Header = () => {
 
     const [location, setLocation] = useState("Monteros")
@@ -15,6 +16,7 @@ const Header = () => {
                 <form className="row row-cols-lg-auto text-center g-3 align-items-center">
                     <div className="col-12">
                         <div className="input-group">
+                            
                             <div className="input-group-text">Localidad</div>
                             <input type="text"
                                 className="form-control"

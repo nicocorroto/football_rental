@@ -1,8 +1,6 @@
 .header{
     align-items: center;
-    background-image: url('../../img/FotoPortada.jpg') !important;
-    background-repeat: no-repeat !important;
-    width: auto;
+    
 }
 .title{
     background-color: aliceblue;
