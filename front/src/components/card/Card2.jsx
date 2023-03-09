@@ -1,5 +1,6 @@
 import React from 'react'
 import Mastil from '../../img/Mastil.jpg'
+import { Link } from 'react-router-dom'
 
 const Card2 = () => {
     return (
@@ -42,8 +43,13 @@ const Card2 = () => {
                                         <span className="align-middle lh-1 me-1 size-5 border border-4 border-success rounded-circle d-inline-block"></span>
                                         Disponible
                                     </span>
-                                    <div className="text-end">
-                                        <a href="#!.html" className="btn btn-sm btn-primary">Alquilar</a>
+
+                                    <div >
+                                        <Link to="/profile">
+                                            <button className="btn btn-sm btn-primary">
+                                                Alquilar
+                                            </button>
+                                        </Link>
                                     </div>
                                 </li>
                             </ul>
@@ -84,8 +90,12 @@ const Card2 = () => {
                                         <span className="align-middle lh-1 me-1 size-5 border border-4 border-success rounded-circle d-inline-block"></span>
                                         Disponible
                                     </span>
-                                    <div className="text-end">
-                                        <a href="#!.html" className="btn btn-sm btn-primary">Alquilar</a>
+                                    <div >
+                                        <Link to="/profile">
+                                            <button className="btn btn-sm btn-primary">
+                                                Alquilar
+                                            </button>
+                                        </Link>
                                     </div>
                                 </li>
                             </ul>
@@ -126,8 +136,12 @@ const Card2 = () => {
                                         <span className="align-middle lh-1 me-1 size-5 border border-4 border-success rounded-circle d-inline-block"></span>
                                         Disponible
                                     </span>
-                                    <div className="text-end">
-                                        <a href="#!.html" className="btn btn-sm btn-primary">Alquilar</a>
+                                    <div >
+                                        <Link to="/profile">
+                                            <button className="btn btn-sm btn-primary">
+                                                Alquilar
+                                            </button>
+                                        </Link>
                                     </div>
                                 </li>
                             </ul>

@@ -1,0 +1,93 @@
+.img{
+    background-image: linear-gradient(150deg, rgba(63, 174, 255, .3)15%, rgba(63, 174, 255, .3)70%, 
+    rgba(63, 174, 255, .3)94%), 
+    url('../../../img/Mastil.jpg');    
+    background-size: cover;
+}
+.main-body{
+    padding-top: 10px;
+}
+/*social */
+.card-profile {
+    margin-bottom: 25px;
+    box-shadow: 0 10px 20px 0 rgba(26, 44, 57, 0.14);
+    border:darkgreen;
+    padding-top: 100px;
+}
+
+.social-profile .user-profile {
+    position: absolute;
+    bottom: -75px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    left: 50px;
+}
+
+.social-nav {
+    position: absolute;
+    bottom: 0;
+}
+
+.social-prof {
+    color: #333;
+    text-align: center;
+}
+
+.social-prof .wrapper {
+    width: 70%;
+    margin: auto;
+    margin-top: -100px;
+}
+
+.social-prof img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    border: 5px solid #fff;
+    /*border: 10px solid #70b5e6ee;*/
+}
+
+.social-prof h3 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.social-prof p {
+    font-size: 18px;
+}
+
+.social-prof .nav-tabs {
+    border: none;
+}
+
+.card-profile .nav>li {
+    position: relative;
+    display: block;
+}
+
+.card-profile .nav>li>a {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    font-weight: 300;
+    border-radius: 4px;
+}
+
+.card-profile .nav>li>a:focus,
+.card-profile .nav>li>a:hover {
+    text-decoration: none;
+    background-color: #eee;
+}
+
+.card-profile .s-nav>li>a.active {
+    text-decoration: none;
+    background-color: #3afe;
+    color: #fff;
+}
+
+.text-blue {
+    color: #3afe;
+}

@@ -12,7 +12,7 @@
 }
 
 .contact__option{
-    background: #5bef65;
+    background: #66cd6d;
     padding: 1.2rem;
     border-radius: 1.2rem;
     text-align: center;
@@ -34,6 +34,10 @@
     margin-top: 0.7rem;
     display: inline-block;
     font-size: 0.8rem;
+}
+
+h2{
+    text-align: center;
 }
 
 /*=============== FORM ===============*/
