@@ -3,11 +3,9 @@ import './Table.css'
 
 const Table = () => {
     return (
-        <div className="container">
-            <div className="timetable-img text-center">
-                <img src="" alt="" />
-            </div>
+        <div className="container" id='Disponibilidad'>
             <div className="table-responsive">
+                <h2>Horarios disponibles</h2>
                 <table className="table table-bordered text-center">
                     <thead>
                         <tr className="bg-light-gray">

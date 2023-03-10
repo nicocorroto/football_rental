@@ -1,6 +1,7 @@
 import React from 'react'
+import About from '../../components/about/About'
 import NavBar from '../../components/nav/NavBar'
-import Table from '../../components/Profile/table/Table'
+import Table from '../../components/table/Table'
 import Partes from './components/Partes'
 
 const Index = () => {
@@ -8,6 +9,7 @@ const Index = () => {
     <>
         <NavBar/>
         <Partes/>
+        <About/>
         <Table/>
     </>
   )
